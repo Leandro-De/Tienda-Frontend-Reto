@@ -1,0 +1,53 @@
+@import "variables";
+
+.form-container {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  width: 300px;
+  justify-items: center;
+}
+
+.email-image {
+  width: 132px;
+  height: 132px;
+  border-radius: 50%;
+  background-color: $text-input-field;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 24px;
+
+  img {
+    width: 80px;
+  }
+}
+
+.resend {
+  font-size: $sm;
+
+  span {
+    color: $very-light-pink;
+  }
+
+  a {
+    color: $hospital-green;
+    text-decoration: none;
+  }
+}
+
+.primary-btn {
+  background-color: $hospital-green;
+  border-radius: 8px;
+  border: none;
+  color: $white;
+  width: 100%;
+  cursor: pointer;
+  font-size: $md;
+  font-weight: bold;
+  height: 50px;
+}
+
+.login-btn {
+  margin-top: 14px;
+  margin-bottom: 30px;
+}
